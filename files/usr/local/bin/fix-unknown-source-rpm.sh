@@ -9,7 +9,8 @@ set -e
 
 pkgs=($(dnf list --installed | grep unknown | awk '{print $1}'))
 if [ ${#pkgs[@]} -gt 0 ]; then
-  sudo dnf reinstall "${pkgs[@]}"
+  echo "Reinstalling unknown source packages: ${pkgs[*]}" >&2
+  sudo dnf reinstall -y "${pkgs[@]}"
 fi
 sudo rpm -qVa
 
