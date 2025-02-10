@@ -1,11 +1,12 @@
 # See: https://github.com/StevenBlack/hosts?tab=readme-ov-file
 # See: https://github.com/Ultimate-Hosts-Blacklist/Ultimate.Hosts.Blacklist/blob/master/hosts.deny/hosts0.deny
+SERVICE=update-hosts-deny
 
-[ -e /etc/hosts.orig ] || sudo cp -vf /etc/hosts /etc/hosts.orig
-curl -o /tmp/hosts.denylist "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social-only/hosts"
-sudo cp -vf /tmp/hosts.denylist /etc/hosts.denylist
-cat /etc/hosts.orig /etc/hosts.denylist | sudo tee /etc/hosts > /dev/null
+# Setup service
+[ -e /etc/systemd/system/${SERVICE}.service ] || sudo cp -vf files/etc/systemd/system/${SERVICE}.service /etc/systemd/system/
+[ -e /etc/systemd/system/${SERVICE}.timer ]   || sudo cp -vf files/etc/systemd/system/${SERVICE}.timer /etc/systemd/system/
+[ -e /usr/local/bin/${SERVICE}.sh ] || cp -vf files/usr/local/bin/${SERVIVE}.sh /usr/local/bin/
 
-curl -o /tmp/hosts.deny "https://raw.githubusercontent.com/Ultimate-Hosts-Blacklist/Ultimate.Hosts.Blacklist/refs/heads/master/hosts.deny/hosts0.deny"
-sudo cp -vf /tmp/hosts.deny /etc/hosts.deny
+systemctl --quiet is-enabled ${SERVICE} || sudo systemctl enable ${SERVICE}
+systemctl --quiet is-active ${SERVICE} || sudo systemctl start ${SERVICE}
 
