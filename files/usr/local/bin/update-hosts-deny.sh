@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # See: https://github.com/StevenBlack/hosts?tab=readme-ov-file
 # See: https://github.com/Ultimate-Hosts-Blacklist/Ultimate.Hosts.Blacklist/blob/master/hosts.deny/hosts0.deny
 

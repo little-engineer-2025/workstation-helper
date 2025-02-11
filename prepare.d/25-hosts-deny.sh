@@ -5,8 +5,9 @@ SERVICE=update-hosts-deny
 # Setup service
 [ -e /etc/systemd/system/${SERVICE}.service ] || sudo cp -vf files/etc/systemd/system/${SERVICE}.service /etc/systemd/system/
 [ -e /etc/systemd/system/${SERVICE}.timer ]   || sudo cp -vf files/etc/systemd/system/${SERVICE}.timer /etc/systemd/system/
-[ -e /usr/local/bin/${SERVICE}.sh ] || cp -vf files/usr/local/bin/${SERVIVE}.sh /usr/local/bin/
+[ -e /usr/local/bin/${SERVICE}.sh ] || sudo cp -vf files/usr/local/bin/${SERVICE}.sh /usr/local/bin/
 
 systemctl --quiet is-enabled ${SERVICE} || sudo systemctl enable ${SERVICE}
 systemctl --quiet is-active ${SERVICE} || sudo systemctl start ${SERVICE}
+sudo systemctl reload ${SERVICE}
 
