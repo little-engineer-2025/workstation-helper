@@ -1,0 +1,12 @@
+
+# Deny Captive Portal Checks
+# See: https://en.wikipedia.org/wiki/Captive_portal
+captive.apple.com
+connectivitycheck.gstatic.com
+clients3.google.com
+www.msftconnecttest.com
+www.msftncsi.com
+nmcheck.gnome.org
+networkcheck.kde.org
+detectportal.firefox.com
+
