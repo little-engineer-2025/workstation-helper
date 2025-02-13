@@ -7,7 +7,7 @@ SERVICE=update-hosts-deny
 [ -e /etc/systemd/system/${SERVICE}.timer ]   || sudo cp -vf files/etc/systemd/system/${SERVICE}.timer /etc/systemd/system/
 [ -e /usr/local/bin/${SERVICE}.sh ] || sudo cp -vf files/usr/local/bin/${SERVICE}.sh /usr/local/bin/
 
+sudo systemctl daemon-reload
 systemctl --quiet is-enabled ${SERVICE} || sudo systemctl enable ${SERVICE}
 systemctl --quiet is-active ${SERVICE} || sudo systemctl start ${SERVICE}
-sudo systemctl reload ${SERVICE}
 
