@@ -8,6 +8,10 @@ git clone https://github.com/little-engineer-2025/workstation-helper.git
 ./prepare.sh
 ```
 
+## TODO
+
+- [] Fix update-hosts-deny; it seems permissions.
+
 ## References
 
 - https://github.com/maravento/blackweb/tree/master
