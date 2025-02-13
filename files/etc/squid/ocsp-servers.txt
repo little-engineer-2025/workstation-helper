@@ -3,4 +3,5 @@ r10.o.lencr.org
 r11.o.lencr.org
 status.rapidssl.com
 o.pki.goog
+ocsp.sectigo.com
 

@@ -10,3 +10,6 @@ nmcheck.gnome.org
 networkcheck.kde.org
 detectportal.firefox.com
 
+# Cookies and tracking
+cdn.cookielaw.org:443
+
