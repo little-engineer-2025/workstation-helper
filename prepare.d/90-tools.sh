@@ -32,6 +32,15 @@ function install_service {
   [ ! -e files/usr/local/bin/${SERVICE}.sh ] || sudo /usr/local/bin/${SERVICE}.sh
 }
 
+function install_vscode {
+  sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+  echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo > /dev/null
+
+  dnf check-update
+  sudo dnf install -y code
+}
+
 install_packages
-install_dotfiles
+# install_dotfiles
 install_service "fix-unknown-source-rpm"
+sudo dnf install -y neovim --exclude=nodejs
