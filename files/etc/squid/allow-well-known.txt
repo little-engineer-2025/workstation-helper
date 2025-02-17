@@ -13,4 +13,4 @@ duckduckgo.com:443
 
 # Fedora
 .fedoraproject.org:443
-
+.fedoramagazine.org:443
