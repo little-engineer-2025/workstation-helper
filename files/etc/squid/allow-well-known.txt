@@ -1,4 +1,16 @@
-
+# Google services
 safebrowsing.googleapis.com:443
 apis.google.com:443
+
+# Github
+.github.com:443
+
+# Searchers
+www.google.es:443
+www.google.com:443
+html.duckduckgo.com:443
+duckduckgo.com:443
+
+# Fedora
+.fedoraproject.org:443
 
