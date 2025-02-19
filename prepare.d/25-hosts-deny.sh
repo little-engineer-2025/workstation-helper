@@ -9,5 +9,5 @@ SERVICE=update-hosts-deny
 
 sudo systemctl daemon-reload
 systemctl --quiet is-enabled ${SERVICE} || sudo systemctl enable ${SERVICE}
-systemctl --quiet is-active ${SERVICE} || sudo systemctl start ${SERVICE}
+systemctl --quiet is-active ${SERVICE} || sudo systemctl start ${SERVICE} || true
 
