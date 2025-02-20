@@ -1,6 +1,6 @@
 # Install and configure squid http cache
 
-sudo dnf install -y squid
+which squid &>/dev/null || sudo dnf install -y squid
 sudo cp -vf files/etc/squid/* /etc/squid/
 systemctl --quiet is-enabled squid || sudo systemctl enable squid
 systemctl --quiet is-active squid || sudo systemctl start squid

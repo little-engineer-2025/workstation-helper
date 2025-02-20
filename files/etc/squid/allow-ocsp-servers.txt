@@ -1,9 +1,11 @@
 # See: https://pki.goog/repository/
 
+
 ocsp.globalsign.com
 ocsp.verisign.com
 o.pki.goog
 ocsp.sectigo.com
+crl3.digicert.com
 ocsp.digicert.com
 
 status.rapidssl.com
