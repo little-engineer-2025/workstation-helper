@@ -10,7 +10,6 @@ git clone https://github.com/little-engineer-2025/workstation-helper.git
 
 ## TODO
 
-- [] Fix update-hosts-deny; it seems permissions.
 - [] NFT table rules for:
      egress 443/tcp
      egress 123/udp
