@@ -376,3 +376,445 @@ python3-libxml2.aarch64                                2.12.9-1.fc41            
 virt-manager.noarch                                    5.0.0-1.fc41                       <unknown>
 virt-manager-common.noarch                             5.0.0-1.fc41                       <unknown>
 xorriso.aarch64                                        1.5.6-6.fc41                       <unknown>
+
+
+Sun Mar 30 09:57:55 PM CEST 2025
+SDL2_image.aarch64                                                     2.8.6-1.fc41                           <unknown>
+boost-iostreams.aarch64                                                1.83.0-8.fc41                          <unknown>
+capstone.aarch64                                                       5.0.1-6.fc41                           <unknown>
+daxctl-libs.aarch64                                                    80-1.fc41                              <unknown>
+edk2-aarch64.noarch                                                    20241117-5.fc41                        <unknown>
+genisoimage.aarch64                                                    1.1.11-56.fc41                         <unknown>
+glusterfs.aarch64                                                      11.1-6.fc41                            <unknown>
+glusterfs-cli.aarch64                                                  11.1-6.fc41                            <unknown>
+glusterfs-client-xlators.aarch64                                       11.1-6.fc41                            <unknown>
+glusterfs-fuse.aarch64                                                 11.1-6.fc41                            <unknown>
+gnome-boxes.aarch64                                                    47.0-1.fc41                            <unknown>
+gnutls-utils.aarch64                                                   3.8.9-2.fc41                           <unknown>
+iperf3.aarch64                                                         3.17.1-2.fc41                          <unknown>
+ipxe-roms-qemu.noarch                                                  20240119-2.gitde8a0821.fc41            <unknown>
+iscsi-initiator-utils.aarch64                                          6.2.1.10-0.gitd0f04ae.fc41.1           <unknown>
+iscsi-initiator-utils-iscsiuio.aarch64                                 6.2.1.10-0.gitd0f04ae.fc41.1           <unknown>
+isns-utils-libs.aarch64                                                0.101-10.fc41                          <unknown>
+kiwi-boxed-plugin.noarch                                               0.2.52-1.fc41                          <unknown>
+libblkio.aarch64                                                       1.5.0-2.fc41                           <unknown>
+libfdt.aarch64                                                         1.7.2-2.fc41                           <unknown>
+libgfapi0.aarch64                                                      11.1-6.fc41                            <unknown>
+libgfrpc0.aarch64                                                      11.1-6.fc41                            <unknown>
+libgfxdr0.aarch64                                                      11.1-6.fc41                            <unknown>
+libglusterfs0.aarch64                                                  11.1-6.fc41                            <unknown>
+libiscsi.aarch64                                                       1.20.0-3.fc41                          <unknown>
+libnbd.aarch64                                                         1.22.1-1.fc41                          <unknown>
+libnfs.aarch64                                                         5.0.3-2.fc41                           <unknown>
+librados2.aarch64                                                      2:19.2.1-2.fc41                        <unknown>
+librbd1.aarch64                                                        2:19.2.1-2.fc41                        <unknown>
+libslirp.aarch64                                                       4.8.0-2.fc41                           <unknown>
+libtpms.aarch64                                                        0.9.6-9.fc41                           <unknown>
+libusal.aarch64                                                        1.1.11-56.fc41                         <unknown>
+libvirt-daemon.aarch64                                                 10.6.0-7.fc41                          <unknown>
+libvirt-daemon-driver-interface.aarch64                                10.6.0-7.fc41                          <unknown>
+libvirt-daemon-driver-nodedev.aarch64                                  10.6.0-7.fc41                          <unknown>
+libvirt-daemon-driver-nwfilter.aarch64                                 10.6.0-7.fc41                          <unknown>
+libvirt-daemon-driver-qemu.aarch64                                     10.6.0-7.fc41                          <unknown>
+libvirt-daemon-driver-secret.aarch64                                   10.6.0-7.fc41                          <unknown>
+libvirt-daemon-driver-storage.aarch64                                  10.6.0-7.fc41                          <unknown>
+libvirt-daemon-driver-storage-core.aarch64                             10.6.0-7.fc41                          <unknown>
+libvirt-daemon-driver-storage-disk.aarch64                             10.6.0-7.fc41                          <unknown>
+libvirt-daemon-driver-storage-gluster.aarch64                          10.6.0-7.fc41                          <unknown>
+libvirt-daemon-driver-storage-iscsi.aarch64                            10.6.0-7.fc41                          <unknown>
+libvirt-daemon-driver-storage-iscsi-direct.aarch64                     10.6.0-7.fc41                          <unknown>
+libvirt-daemon-driver-storage-logical.aarch64                          10.6.0-7.fc41                          <unknown>
+libvirt-daemon-driver-storage-mpath.aarch64                            10.6.0-7.fc41                          <unknown>
+libvirt-daemon-driver-storage-rbd.aarch64                              10.6.0-7.fc41                          <unknown>
+libvirt-daemon-driver-storage-scsi.aarch64                             10.6.0-7.fc41                          <unknown>
+libvirt-daemon-kvm.aarch64                                             10.6.0-7.fc41                          <unknown>
+libvirt-daemon-lock.aarch64                                            10.6.0-7.fc41                          <unknown>
+libvirt-daemon-log.aarch64                                             10.6.0-7.fc41                          <unknown>
+libvirt-daemon-plugin-lockd.aarch64                                    10.6.0-7.fc41                          <unknown>
+libvirt-daemon-proxy.aarch64                                           10.6.0-7.fc41                          <unknown>
+libvirt-gconfig.aarch64                                                5.0.0-4.fc41                           <unknown>
+libvirt-gobject.aarch64                                                5.0.0-4.fc41                           <unknown>
+libvirt-ssh-proxy.aarch64                                              10.6.0-7.fc41                          <unknown>
+libxdp.aarch64                                                         1.5.3-1.fc41                           <unknown>
+lzop.aarch64                                                           1.04-15.fc41                           <unknown>
+mdevctl.aarch64                                                        1.4.0-1.fc41                           <unknown>
+nbdkit.aarch64                                                         1.40.5-2.fc41                          <unknown>
+nbdkit-basic-filters.aarch64                                           1.40.5-2.fc41                          <unknown>
+nbdkit-basic-plugins.aarch64                                           1.40.5-2.fc41                          <unknown>
+nbdkit-curl-plugin.aarch64                                             1.40.5-2.fc41                          <unknown>
+nbdkit-selinux.noarch                                                  1.40.5-2.fc41                          <unknown>
+nbdkit-server.aarch64                                                  1.40.5-2.fc41                          <unknown>
+nbdkit-ssh-plugin.aarch64                                              1.40.5-2.fc41                          <unknown>
+nodejs.aarch64                                                         1:22.14.0-2.fc41                       <unknown>
+nodejs-docs.noarch                                                     1:22.14.0-2.fc41                       <unknown>
+nodejs-full-i18n.aarch64                                               1:22.14.0-2.fc41                       <unknown>
+nodejs-libs.aarch64                                                    1:22.14.0-2.fc41                       <unknown>
+nodejs-npm.aarch64                                                     1:10.9.2-1.22.14.0.2.fc41              <unknown>
+numad.aarch64                                                          0.5-45.20150602git.fc41                <unknown>
+python3-cerberus.noarch                                                1.3.4-9.fc41                           <unknown>
+python3-kiwi-boxed-plugin.noarch                                       0.2.52-1.fc41                          <unknown>
+python3-progressbar2.noarch                                            3.53.2-13.fc41                         <unknown>
+python3-utils.noarch                                                   3.7.0-6.fc41                           <unknown>
+qemu-audio-alsa.aarch64                                                2:9.1.3-2.fc41                         <unknown>
+qemu-audio-dbus.aarch64                                                2:9.1.3-2.fc41                         <unknown>
+qemu-audio-jack.aarch64                                                2:9.1.3-2.fc41                         <unknown>
+qemu-audio-oss.aarch64                                                 2:9.1.3-2.fc41                         <unknown>
+qemu-audio-pa.aarch64                                                  2:9.1.3-2.fc41                         <unknown>
+qemu-audio-pipewire.aarch64                                            2:9.1.3-2.fc41                         <unknown>
+qemu-audio-sdl.aarch64                                                 2:9.1.3-2.fc41                         <unknown>
+qemu-audio-spice.aarch64                                               2:9.1.3-2.fc41                         <unknown>
+qemu-block-blkio.aarch64                                               2:9.1.3-2.fc41                         <unknown>
+qemu-block-curl.aarch64                                                2:9.1.3-2.fc41                         <unknown>
+qemu-block-dmg.aarch64                                                 2:9.1.3-2.fc41                         <unknown>
+qemu-block-gluster.aarch64                                             2:9.1.3-2.fc41                         <unknown>
+qemu-block-iscsi.aarch64                                               2:9.1.3-2.fc41                         <unknown>
+qemu-block-nfs.aarch64                                                 2:9.1.3-2.fc41                         <unknown>
+qemu-block-rbd.aarch64                                                 2:9.1.3-2.fc41                         <unknown>
+qemu-block-ssh.aarch64                                                 2:9.1.3-2.fc41                         <unknown>
+qemu-char-baum.aarch64                                                 2:9.1.3-2.fc41                         <unknown>
+qemu-char-spice.aarch64                                                2:9.1.3-2.fc41                         <unknown>
+qemu-common.aarch64                                                    2:9.1.3-2.fc41                         <unknown>
+qemu-device-display-qxl.aarch64                                        2:9.1.3-2.fc41                         <unknown>
+qemu-device-display-vhost-user-gpu.aarch64                             2:9.1.3-2.fc41                         <unknown>
+qemu-device-display-virtio-gpu.aarch64                                 2:9.1.3-2.fc41                         <unknown>
+qemu-device-display-virtio-gpu-ccw.aarch64                             2:9.1.3-2.fc41                         <unknown>
+qemu-device-display-virtio-gpu-gl.aarch64                              2:9.1.3-2.fc41                         <unknown>
+qemu-device-display-virtio-gpu-pci.aarch64                             2:9.1.3-2.fc41                         <unknown>
+qemu-device-display-virtio-gpu-pci-gl.aarch64                          2:9.1.3-2.fc41                         <unknown>
+qemu-device-display-virtio-gpu-pci-rutabaga.aarch64                    2:9.1.3-2.fc41                         <unknown>
+qemu-device-display-virtio-gpu-rutabaga.aarch64                        2:9.1.3-2.fc41                         <unknown>
+qemu-device-display-virtio-vga.aarch64                                 2:9.1.3-2.fc41                         <unknown>
+qemu-device-display-virtio-vga-gl.aarch64                              2:9.1.3-2.fc41                         <unknown>
+qemu-device-display-virtio-vga-rutabaga.aarch64                        2:9.1.3-2.fc41                         <unknown>
+qemu-device-usb-host.aarch64                                           2:9.1.3-2.fc41                         <unknown>
+qemu-device-usb-redirect.aarch64                                       2:9.1.3-2.fc41                         <unknown>
+qemu-device-usb-smartcard.aarch64                                      2:9.1.3-2.fc41                         <unknown>
+qemu-img.aarch64                                                       2:9.1.3-2.fc41                         <unknown>
+qemu-kvm.aarch64                                                       2:9.1.3-2.fc41                         <unknown>
+qemu-kvm-core.aarch64                                                  2:9.1.3-2.fc41                         <unknown>
+qemu-pr-helper.aarch64                                                 2:9.1.3-2.fc41                         <unknown>
+qemu-system-aarch64.aarch64                                            2:9.1.3-2.fc41                         <unknown>
+qemu-system-aarch64-core.aarch64                                       2:9.1.3-2.fc41                         <unknown>
+qemu-ui-curses.aarch64                                                 2:9.1.3-2.fc41                         <unknown>
+qemu-ui-egl-headless.aarch64                                           2:9.1.3-2.fc41                         <unknown>
+qemu-ui-gtk.aarch64                                                    2:9.1.3-2.fc41                         <unknown>
+qemu-ui-opengl.aarch64                                                 2:9.1.3-2.fc41                         <unknown>
+qemu-ui-sdl.aarch64                                                    2:9.1.3-2.fc41                         <unknown>
+qemu-ui-spice-app.aarch64                                              2:9.1.3-2.fc41                         <unknown>
+qemu-ui-spice-core.aarch64                                             2:9.1.3-2.fc41                         <unknown>
+rutabaga-gfx-ffi.aarch64                                               0.1.3-2.fc41                           <unknown>
+scrub.aarch64                                                          2.6.1-9.fc41                           <unknown>
+spice-server.aarch64                                                   0.15.1-6.fc41                          <unknown>
+sqlite.aarch64                                                         3.46.1-2.fc41                          <unknown>
+swtpm.aarch64                                                          0.9.0-7.fc41                           <unknown>
+swtpm-libs.aarch64                                                     0.9.0-7.fc41                           <unknown>
+swtpm-selinux.noarch                                                   0.9.0-7.fc41                           <unknown>
+swtpm-tools.aarch64                                                    0.9.0-7.fc41                           <unknown>
+systemd-container.aarch64                                              256.12-1.fc41                          <unknown>
+teckit.aarch64                                                         2.5.12-3.fc41                          <unknown>
+texlive-dvipdfmx.aarch64                                               11:svn66203-85.fc41                    <unknown>
+texlive-everyshi.noarch                                                11:svn57001-73.fc41                    <unknown>
+texlive-firstaid.noarch                                                11:svn64892-73.fc41                    <unknown>
+texlive-glyphlist.noarch                                               11:svn54074-85.fc41                    <unknown>
+texlive-xetex.aarch64                                                  11:svn66203-85.fc41                    <unknown>
+texlive-xetexconfig.noarch                                             11:svn45845-73.fc41                    <unknown>
+virglrenderer.aarch64                                                  1.0.1^asahipost20241205.2-1.fc41       <unknown>
+virtiofsd.aarch64                                                      1.13.0-1.fc41                          <unknown>
+xen-libs.aarch64                                                       4.19.1-5.fc41                          <unknown>
+xen-licenses.aarch64                                                   4.19.1-5.fc41                          <unknown>
+zstd.aarch64                                                           1.5.7-1.fc41                           <unknown>
+Package                                                  Arch    Version                          Repository                                           Size
+Reinstalling:
+ SDL2_image                                              aarch64 2.8.6-1.fc41                     updates                                         273.9 KiB
+   replacing SDL2_image                                  aarch64 2.8.6-1.fc41                     <unknown>                                       273.9 KiB
+ boost-iostreams                                         aarch64 1.83.0-8.fc41                    fedora                                          198.3 KiB
+   replacing boost-iostreams                             aarch64 1.83.0-8.fc41                    <unknown>                                       198.3 KiB
+ capstone                                                aarch64 5.0.1-6.fc41                     fedora                                           14.2 MiB
+   replacing capstone                                    aarch64 5.0.1-6.fc41                     <unknown>                                        14.2 MiB
+ daxctl-libs                                             aarch64 80-1.fc41                        updates                                         106.3 KiB
+   replacing daxctl-libs                                 aarch64 80-1.fc41                        <unknown>                                       106.3 KiB
+ edk2-aarch64                                            noarch  20241117-5.fc41                  updates                                         203.6 MiB
+   replacing edk2-aarch64                                noarch  20241117-5.fc41                  <unknown>                                       203.6 MiB
+ genisoimage                                             aarch64 1.1.11-56.fc41                   fedora                                            1.6 MiB
+   replacing genisoimage                                 aarch64 1.1.11-56.fc41                   <unknown>                                         1.6 MiB
+ glusterfs                                               aarch64 11.1-6.fc41                      fedora                                            6.7 MiB
+   replacing glusterfs                                   aarch64 11.1-6.fc41                      <unknown>                                         6.7 MiB
+ glusterfs-cli                                           aarch64 11.1-6.fc41                      fedora                                          459.9 KiB
+   replacing glusterfs-cli                               aarch64 11.1-6.fc41                      <unknown>                                       459.9 KiB
+ glusterfs-client-xlators                                aarch64 11.1-6.fc41                      fedora                                            3.7 MiB
+   replacing glusterfs-client-xlators                    aarch64 11.1-6.fc41                      <unknown>                                         3.7 MiB
+ glusterfs-fuse                                          aarch64 11.1-6.fc41                      fedora                                          767.2 KiB
+   replacing glusterfs-fuse                              aarch64 11.1-6.fc41                      <unknown>                                       767.2 KiB
+ gnome-boxes                                             aarch64 47.0-1.fc41                      fedora                                            6.3 MiB
+   replacing gnome-boxes                                 aarch64 47.0-1.fc41                      <unknown>                                         6.3 MiB
+ gnutls-utils                                            aarch64 3.8.9-2.fc41                     updates                                           1.5 MiB
+   replacing gnutls-utils                                aarch64 3.8.9-2.fc41                     <unknown>                                         1.5 MiB
+ iperf3                                                  aarch64 3.17.1-2.fc41                    fedora                                          524.8 KiB
+   replacing iperf3                                      aarch64 3.17.1-2.fc41                    <unknown>                                       524.8 KiB
+ ipxe-roms-qemu                                          noarch  20240119-2.gitde8a0821.fc41      fedora                                            2.7 MiB
+   replacing ipxe-roms-qemu                              noarch  20240119-2.gitde8a0821.fc41      <unknown>                                         2.7 MiB
+ iscsi-initiator-utils                                   aarch64 6.2.1.10-0.gitd0f04ae.fc41.1     fedora                                            2.1 MiB
+   replacing iscsi-initiator-utils                       aarch64 6.2.1.10-0.gitd0f04ae.fc41.1     <unknown>                                         2.1 MiB
+ iscsi-initiator-utils-iscsiuio                          aarch64 6.2.1.10-0.gitd0f04ae.fc41.1     fedora                                          263.6 KiB
+   replacing iscsi-initiator-utils-iscsiuio              aarch64 6.2.1.10-0.gitd0f04ae.fc41.1     <unknown>                                       263.6 KiB
+ isns-utils-libs                                         aarch64 0.101-10.fc41                    fedora                                          527.8 KiB
+   replacing isns-utils-libs                             aarch64 0.101-10.fc41                    <unknown>                                       527.8 KiB
+ kiwi-boxed-plugin                                       noarch  0.2.52-1.fc41                    updates                                           3.4 KiB
+   replacing kiwi-boxed-plugin                           noarch  0.2.52-1.fc41                    <unknown>                                         3.4 KiB
+ libblkio                                                aarch64 1.5.0-2.fc41                     fedora                                          689.2 KiB
+   replacing libblkio                                    aarch64 1.5.0-2.fc41                     <unknown>                                       689.2 KiB
+ libfdt                                                  aarch64 1.7.2-2.fc41                     updates                                          86.2 KiB
+   replacing libfdt                                      aarch64 1.7.2-2.fc41                     <unknown>                                        86.2 KiB
+ libgfapi0                                               aarch64 11.1-6.fc41                      fedora                                          406.2 KiB
+   replacing libgfapi0                                   aarch64 11.1-6.fc41                      <unknown>                                       406.2 KiB
+ libgfrpc0                                               aarch64 11.1-6.fc41                      fedora                                          234.3 KiB
+   replacing libgfrpc0                                   aarch64 11.1-6.fc41                      <unknown>                                       234.3 KiB
+ libgfxdr0                                               aarch64 11.1-6.fc41                      fedora                                           55.9 KiB
+   replacing libgfxdr0                                   aarch64 11.1-6.fc41                      <unknown>                                        55.9 KiB
+ libglusterfs0                                           aarch64 11.1-6.fc41                      fedora                                          908.4 KiB
+   replacing libglusterfs0                               aarch64 11.1-6.fc41                      <unknown>                                       908.4 KiB
+ libiscsi                                                aarch64 1.20.0-3.fc41                    fedora                                          299.9 KiB
+   replacing libiscsi                                    aarch64 1.20.0-3.fc41                    <unknown>                                       299.9 KiB
+ libnbd                                                  aarch64 1.22.1-1.fc41                    updates                                         577.5 KiB
+   replacing libnbd                                      aarch64 1.22.1-1.fc41                    <unknown>                                       577.5 KiB
+ libnfs                                                  aarch64 5.0.3-2.fc41                     fedora                                          595.8 KiB
+   replacing libnfs                                      aarch64 5.0.3-2.fc41                     <unknown>                                       595.8 KiB
+ librados2                                               aarch64 2:19.2.1-2.fc41                  updates                                          16.2 MiB
+   replacing librados2                                   aarch64 2:19.2.1-2.fc41                  <unknown>                                        16.2 MiB
+ librbd1                                                 aarch64 2:19.2.1-2.fc41                  updates                                          14.7 MiB
+   replacing librbd1                                     aarch64 2:19.2.1-2.fc41                  <unknown>                                        14.7 MiB
+ libslirp                                                aarch64 4.8.0-2.fc41                     fedora                                          279.7 KiB
+   replacing libslirp                                    aarch64 4.8.0-2.fc41                     <unknown>                                       279.7 KiB
+ libtpms                                                 aarch64 0.9.6-9.fc41                     fedora                                            1.0 MiB
+   replacing libtpms                                     aarch64 0.9.6-9.fc41                     <unknown>                                         1.0 MiB
+ libusal                                                 aarch64 1.1.11-56.fc41                   fedora                                          704.5 KiB
+   replacing libusal                                     aarch64 1.1.11-56.fc41                   <unknown>                                       704.5 KiB
+ libvirt-daemon                                          aarch64 10.6.0-7.fc41                    updates                                         770.3 KiB
+   replacing libvirt-daemon                              aarch64 10.6.0-7.fc41                    <unknown>                                       770.3 KiB
+ libvirt-daemon-driver-interface                         aarch64 10.6.0-7.fc41                    updates                                         830.3 KiB
+   replacing libvirt-daemon-driver-interface             aarch64 10.6.0-7.fc41                    <unknown>                                       830.3 KiB
+ libvirt-daemon-driver-nodedev                           aarch64 10.6.0-7.fc41                    updates                                         894.8 KiB
+   replacing libvirt-daemon-driver-nodedev               aarch64 10.6.0-7.fc41                    <unknown>                                       894.8 KiB
+ libvirt-daemon-driver-nwfilter                          aarch64 10.6.0-7.fc41                    updates                                         895.7 KiB
+   replacing libvirt-daemon-driver-nwfilter              aarch64 10.6.0-7.fc41                    <unknown>                                       895.7 KiB
+ libvirt-daemon-driver-qemu                              aarch64 10.6.0-7.fc41                    updates                                           2.8 MiB
+   replacing libvirt-daemon-driver-qemu                  aarch64 10.6.0-7.fc41                    <unknown>                                         2.8 MiB
+ libvirt-daemon-driver-secret                            aarch64 10.6.0-7.fc41                    updates                                         830.1 KiB
+   replacing libvirt-daemon-driver-secret                aarch64 10.6.0-7.fc41                    <unknown>                                       830.1 KiB
+ libvirt-daemon-driver-storage                           aarch64 10.6.0-7.fc41                    updates                                           0.0   B
+   replacing libvirt-daemon-driver-storage               aarch64 10.6.0-7.fc41                    <unknown>                                         0.0   B
+ libvirt-daemon-driver-storage-core                      aarch64 10.6.0-7.fc41                    updates                                           1.1 MiB
+   replacing libvirt-daemon-driver-storage-core          aarch64 10.6.0-7.fc41                    <unknown>                                         1.1 MiB
+ libvirt-daemon-driver-storage-disk                      aarch64 10.6.0-7.fc41                    updates                                          67.9 KiB
+   replacing libvirt-daemon-driver-storage-disk          aarch64 10.6.0-7.fc41                    <unknown>                                        67.9 KiB
+ libvirt-daemon-driver-storage-gluster                   aarch64 10.6.0-7.fc41                    updates                                         135.4 KiB
+   replacing libvirt-daemon-driver-storage-gluster       aarch64 10.6.0-7.fc41                    <unknown>                                       135.4 KiB
+ libvirt-daemon-driver-storage-iscsi                     aarch64 10.6.0-7.fc41                    updates                                          67.8 KiB
+   replacing libvirt-daemon-driver-storage-iscsi         aarch64 10.6.0-7.fc41                    <unknown>                                        67.8 KiB
+ libvirt-daemon-driver-storage-iscsi-direct              aarch64 10.6.0-7.fc41                    updates                                          67.9 KiB
+   replacing libvirt-daemon-driver-storage-iscsi-direct  aarch64 10.6.0-7.fc41                    <unknown>                                        67.9 KiB
+ libvirt-daemon-driver-storage-logical                   aarch64 10.6.0-7.fc41                    updates                                          68.0 KiB
+   replacing libvirt-daemon-driver-storage-logical       aarch64 10.6.0-7.fc41                    <unknown>                                        68.0 KiB
+ libvirt-daemon-driver-storage-mpath                     aarch64 10.6.0-7.fc41                    updates                                          67.7 KiB
+   replacing libvirt-daemon-driver-storage-mpath         aarch64 10.6.0-7.fc41                    <unknown>                                        67.7 KiB
+ libvirt-daemon-driver-storage-rbd                       aarch64 10.6.0-7.fc41                    updates                                          68.0 KiB
+   replacing libvirt-daemon-driver-storage-rbd           aarch64 10.6.0-7.fc41                    <unknown>                                        68.0 KiB
+ libvirt-daemon-driver-storage-scsi                      aarch64 10.6.0-7.fc41                    updates                                          67.8 KiB
+   replacing libvirt-daemon-driver-storage-scsi          aarch64 10.6.0-7.fc41                    <unknown>                                        67.8 KiB
+ libvirt-daemon-kvm                                      aarch64 10.6.0-7.fc41                    updates                                           0.0   B
+   replacing libvirt-daemon-kvm                          aarch64 10.6.0-7.fc41                    <unknown>                                         0.0   B
+ libvirt-daemon-lock                                     aarch64 10.6.0-7.fc41                    updates                                         143.7 KiB
+   replacing libvirt-daemon-lock                         aarch64 10.6.0-7.fc41                    <unknown>                                       143.7 KiB
+ libvirt-daemon-log                                      aarch64 10.6.0-7.fc41                    updates                                         146.4 KiB
+   replacing libvirt-daemon-log                          aarch64 10.6.0-7.fc41                    <unknown>                                       146.4 KiB
+ libvirt-daemon-plugin-lockd                             aarch64 10.6.0-7.fc41                    updates                                          67.8 KiB
+   replacing libvirt-daemon-plugin-lockd                 aarch64 10.6.0-7.fc41                    <unknown>                                        67.8 KiB
+ libvirt-daemon-proxy                                    aarch64 10.6.0-7.fc41                    updates                                         768.2 KiB
+   replacing libvirt-daemon-proxy                        aarch64 10.6.0-7.fc41                    <unknown>                                       768.2 KiB
+ libvirt-gconfig                                         aarch64 5.0.0-4.fc41                     fedora                                          490.7 KiB
+   replacing libvirt-gconfig                             aarch64 5.0.0-4.fc41                     <unknown>                                       490.7 KiB
+ libvirt-gobject                                         aarch64 5.0.0-4.fc41                     fedora                                          299.3 KiB
+   replacing libvirt-gobject                             aarch64 5.0.0-4.fc41                     <unknown>                                       299.3 KiB
+ libvirt-ssh-proxy                                       aarch64 10.6.0-7.fc41                    updates                                          68.0 KiB
+   replacing libvirt-ssh-proxy                           aarch64 10.6.0-7.fc41                    <unknown>                                        68.0 KiB
+ libxdp                                                  aarch64 1.5.3-1.fc41                     updates                                         215.6 KiB
+   replacing libxdp                                      aarch64 1.5.3-1.fc41                     <unknown>                                       215.6 KiB
+ lzop                                                    aarch64 1.04-15.fc41                     fedora                                          226.6 KiB
+   replacing lzop                                        aarch64 1.04-15.fc41                     <unknown>                                       226.6 KiB
+ mdevctl                                                 aarch64 1.4.0-1.fc41                     updates                                           2.2 MiB
+   replacing mdevctl                                     aarch64 1.4.0-1.fc41                     <unknown>                                         2.2 MiB
+ nbdkit                                                  aarch64 1.40.5-2.fc41                    updates                                           0.0   B
+   replacing nbdkit                                      aarch64 1.40.5-2.fc41                    <unknown>                                         0.0   B
+ nbdkit-basic-filters                                    aarch64 1.40.5-2.fc41                    updates                                           2.9 MiB
+   replacing nbdkit-basic-filters                        aarch64 1.40.5-2.fc41                    <unknown>                                         2.9 MiB
+ nbdkit-basic-plugins                                    aarch64 1.40.5-2.fc41                    updates                                           1.1 MiB
+   replacing nbdkit-basic-plugins                        aarch64 1.40.5-2.fc41                    <unknown>                                         1.1 MiB
+ nbdkit-curl-plugin                                      aarch64 1.40.5-2.fc41                    updates                                          90.1 KiB
+   replacing nbdkit-curl-plugin                          aarch64 1.40.5-2.fc41                    <unknown>                                        90.1 KiB
+ nbdkit-selinux                                          noarch  1.40.5-2.fc41                    updates                                          16.5 KiB
+   replacing nbdkit-selinux                              noarch  1.40.5-2.fc41                    <unknown>                                        16.5 KiB
+ nbdkit-server                                           aarch64 1.40.5-2.fc41                    updates                                         323.5 KiB
+   replacing nbdkit-server                               aarch64 1.40.5-2.fc41                    <unknown>                                       323.5 KiB
+ nbdkit-ssh-plugin                                       aarch64 1.40.5-2.fc41                    updates                                          85.7 KiB
+   replacing nbdkit-ssh-plugin                           aarch64 1.40.5-2.fc41                    <unknown>                                        85.7 KiB
+ nodejs                                                  aarch64 1:22.14.0-2.fc41                 updates                                         189.6 KiB
+   replacing nodejs                                      aarch64 1:22.14.0-2.fc41                 <unknown>                                       189.6 KiB
+ nodejs-docs                                             noarch  1:22.14.0-2.fc41                 updates                                          93.7 MiB
+   replacing nodejs-docs                                 noarch  1:22.14.0-2.fc41                 <unknown>                                        93.7 MiB
+ nodejs-full-i18n                                        aarch64 1:22.14.0-2.fc41                 updates                                          30.4 MiB
+   replacing nodejs-full-i18n                            aarch64 1:22.14.0-2.fc41                 <unknown>                                        30.4 MiB
+ nodejs-libs                                             aarch64 1:22.14.0-2.fc41                 updates                                          71.5 MiB
+   replacing nodejs-libs                                 aarch64 1:22.14.0-2.fc41                 <unknown>                                        71.5 MiB
+ nodejs-npm                                              aarch64 1:10.9.2-1.22.14.0.2.fc41        updates                                           9.3 MiB
+   replacing nodejs-npm                                  aarch64 1:10.9.2-1.22.14.0.2.fc41        <unknown>                                         9.3 MiB
+ numad                                                   aarch64 0.5-45.20150602git.fc41          fedora                                          200.0 KiB
+   replacing numad                                       aarch64 0.5-45.20150602git.fc41          <unknown>                                       200.0 KiB
+ python3-cerberus                                        noarch  1.3.4-9.fc41                     fedora                                          655.7 KiB
+   replacing python3-cerberus                            noarch  1.3.4-9.fc41                     <unknown>                                       655.7 KiB
+ python3-kiwi-boxed-plugin                               noarch  0.2.52-1.fc41                    updates                                         203.4 KiB
+   replacing python3-kiwi-boxed-plugin                   noarch  0.2.52-1.fc41                    <unknown>                                       203.4 KiB
+ python3-progressbar2                                    noarch  3.53.2-13.fc41                   fedora                                          258.5 KiB
+   replacing python3-progressbar2                        noarch  3.53.2-13.fc41                   <unknown>                                       258.5 KiB
+ python3-utils                                           noarch  3.7.0-6.fc41                     fedora                                          172.3 KiB
+   replacing python3-utils                               noarch  3.7.0-6.fc41                     <unknown>                                       172.3 KiB
+ qemu-audio-alsa                                         aarch64 2:9.1.3-2.fc41                   updates                                          68.6 KiB
+   replacing qemu-audio-alsa                             aarch64 2:9.1.3-2.fc41                   <unknown>                                        68.6 KiB
+ qemu-audio-dbus                                         aarch64 2:9.1.3-2.fc41                   updates                                         328.1 KiB
+   replacing qemu-audio-dbus                             aarch64 2:9.1.3-2.fc41                   <unknown>                                       328.1 KiB
+ qemu-audio-jack                                         aarch64 2:9.1.3-2.fc41                   updates                                          68.0 KiB
+   replacing qemu-audio-jack                             aarch64 2:9.1.3-2.fc41                   <unknown>                                        68.0 KiB
+ qemu-audio-oss                                          aarch64 2:9.1.3-2.fc41                   updates                                          67.9 KiB
+   replacing qemu-audio-oss                              aarch64 2:9.1.3-2.fc41                   <unknown>                                        67.9 KiB
+ qemu-audio-pa                                           aarch64 2:9.1.3-2.fc41                   updates                                          67.9 KiB
+   replacing qemu-audio-pa                               aarch64 2:9.1.3-2.fc41                   <unknown>                                        67.9 KiB
+ qemu-audio-pipewire                                     aarch64 2:9.1.3-2.fc41                   updates                                          68.7 KiB
+   replacing qemu-audio-pipewire                         aarch64 2:9.1.3-2.fc41                   <unknown>                                        68.7 KiB
+ qemu-audio-sdl                                          aarch64 2:9.1.3-2.fc41                   updates                                          67.9 KiB
+   replacing qemu-audio-sdl                              aarch64 2:9.1.3-2.fc41                   <unknown>                                        67.9 KiB
+ qemu-audio-spice                                        aarch64 2:9.1.3-2.fc41                   updates                                          67.8 KiB
+   replacing qemu-audio-spice                            aarch64 2:9.1.3-2.fc41                   <unknown>                                        67.8 KiB
+ qemu-block-blkio                                        aarch64 2:9.1.3-2.fc41                   updates                                          72.1 KiB
+   replacing qemu-block-blkio                            aarch64 2:9.1.3-2.fc41                   <unknown>                                        72.1 KiB
+ qemu-block-curl                                         aarch64 2:9.1.3-2.fc41                   updates                                          72.2 KiB
+   replacing qemu-block-curl                             aarch64 2:9.1.3-2.fc41                   <unknown>                                        72.2 KiB
+ qemu-block-dmg                                          aarch64 2:9.1.3-2.fc41                   updates                                          67.4 KiB
+   replacing qemu-block-dmg                              aarch64 2:9.1.3-2.fc41                   <unknown>                                        67.4 KiB
+ qemu-block-gluster                                      aarch64 2:9.1.3-2.fc41                   updates                                          71.4 KiB
+   replacing qemu-block-gluster                          aarch64 2:9.1.3-2.fc41                   <unknown>                                        71.4 KiB
+ qemu-block-iscsi                                        aarch64 2:9.1.3-2.fc41                   updates                                          70.5 KiB
+   replacing qemu-block-iscsi                            aarch64 2:9.1.3-2.fc41                   <unknown>                                        70.5 KiB
+ qemu-block-nfs                                          aarch64 2:9.1.3-2.fc41                   updates                                          69.0 KiB
+   replacing qemu-block-nfs                              aarch64 2:9.1.3-2.fc41                   <unknown>                                        69.0 KiB
+ qemu-block-rbd                                          aarch64 2:9.1.3-2.fc41                   updates                                          69.0 KiB
+   replacing qemu-block-rbd                              aarch64 2:9.1.3-2.fc41                   <unknown>                                        69.0 KiB
+ qemu-block-ssh                                          aarch64 2:9.1.3-2.fc41                   updates                                          70.6 KiB
+   replacing qemu-block-ssh                              aarch64 2:9.1.3-2.fc41                   <unknown>                                        70.6 KiB
+ qemu-char-baum                                          aarch64 2:9.1.3-2.fc41                   updates                                          67.7 KiB
+   replacing qemu-char-baum                              aarch64 2:9.1.3-2.fc41                   <unknown>                                        67.7 KiB
+ qemu-char-spice                                         aarch64 2:9.1.3-2.fc41                   updates                                          68.6 KiB
+   replacing qemu-char-spice                             aarch64 2:9.1.3-2.fc41                   <unknown>                                        68.6 KiB
+ qemu-common                                             aarch64 2:9.1.3-2.fc41                   updates                                           3.3 MiB
+   replacing qemu-common                                 aarch64 2:9.1.3-2.fc41                   <unknown>                                         3.3 MiB
+ qemu-device-display-qxl                                 aarch64 2:9.1.3-2.fc41                   updates                                         140.6 KiB
+   replacing qemu-device-display-qxl                     aarch64 2:9.1.3-2.fc41                   <unknown>                                       140.6 KiB
+ qemu-device-display-vhost-user-gpu                      aarch64 2:9.1.3-2.fc41                   updates                                         850.9 KiB
+   replacing qemu-device-display-vhost-user-gpu          aarch64 2:9.1.3-2.fc41                   <unknown>                                       850.9 KiB
+ qemu-device-display-virtio-gpu                          aarch64 2:9.1.3-2.fc41                   updates                                          71.0 KiB
+   replacing qemu-device-display-virtio-gpu              aarch64 2:9.1.3-2.fc41                   <unknown>                                        71.0 KiB
+ qemu-device-display-virtio-gpu-ccw                      aarch64 2:9.1.3-2.fc41                   updates                                          67.6 KiB
+   replacing qemu-device-display-virtio-gpu-ccw          aarch64 2:9.1.3-2.fc41                   <unknown>                                        67.6 KiB
+ qemu-device-display-virtio-gpu-gl                       aarch64 2:9.1.3-2.fc41                   updates                                          69.9 KiB
+   replacing qemu-device-display-virtio-gpu-gl           aarch64 2:9.1.3-2.fc41                   <unknown>                                        69.9 KiB
+ qemu-device-display-virtio-gpu-pci                      aarch64 2:9.1.3-2.fc41                   updates                                          67.6 KiB
+   replacing qemu-device-display-virtio-gpu-pci          aarch64 2:9.1.3-2.fc41                   <unknown>                                        67.6 KiB
+ qemu-device-display-virtio-gpu-pci-gl                   aarch64 2:9.1.3-2.fc41                   updates                                          67.2 KiB
+   replacing qemu-device-display-virtio-gpu-pci-gl       aarch64 2:9.1.3-2.fc41                   <unknown>                                        67.2 KiB
+ qemu-device-display-virtio-gpu-pci-rutabaga             aarch64 2:9.1.3-2.fc41                   updates                                          67.4 KiB
+   replacing qemu-device-display-virtio-gpu-pci-rutabaga aarch64 2:9.1.3-2.fc41                   <unknown>                                        67.4 KiB
+ qemu-device-display-virtio-gpu-rutabaga                 aarch64 2:9.1.3-2.fc41                   updates                                          70.4 KiB
+   replacing qemu-device-display-virtio-gpu-rutabaga     aarch64 2:9.1.3-2.fc41                   <unknown>                                        70.4 KiB
+ qemu-device-display-virtio-vga                          aarch64 2:9.1.3-2.fc41                   updates                                          67.9 KiB
+   replacing qemu-device-display-virtio-vga              aarch64 2:9.1.3-2.fc41                   <unknown>                                        67.9 KiB
+ qemu-device-display-virtio-vga-gl                       aarch64 2:9.1.3-2.fc41                   updates                                          67.4 KiB
+   replacing qemu-device-display-virtio-vga-gl           aarch64 2:9.1.3-2.fc41                   <unknown>                                        67.4 KiB
+ qemu-device-display-virtio-vga-rutabaga                 aarch64 2:9.1.3-2.fc41                   updates                                          67.4 KiB
+   replacing qemu-device-display-virtio-vga-rutabaga     aarch64 2:9.1.3-2.fc41                   <unknown>                                        67.4 KiB
+ qemu-device-usb-host                                    aarch64 2:9.1.3-2.fc41                   updates                                          72.4 KiB
+   replacing qemu-device-usb-host                        aarch64 2:9.1.3-2.fc41                   <unknown>                                        72.4 KiB
+ qemu-device-usb-redirect                                aarch64 2:9.1.3-2.fc41                   updates                                          69.0 KiB
+   replacing qemu-device-usb-redirect                    aarch64 2:9.1.3-2.fc41                   <unknown>                                        69.0 KiB
+ qemu-device-usb-smartcard                               aarch64 2:9.1.3-2.fc41                   updates                                          68.7 KiB
+   replacing qemu-device-usb-smartcard                   aarch64 2:9.1.3-2.fc41                   <unknown>                                        68.7 KiB
+ qemu-img                                                aarch64 2:9.1.3-2.fc41                   updates                                          23.6 MiB
+   replacing qemu-img                                    aarch64 2:9.1.3-2.fc41                   <unknown>                                        23.6 MiB
+ qemu-kvm                                                aarch64 2:9.1.3-2.fc41                   updates                                           0.0   B
+   replacing qemu-kvm                                    aarch64 2:9.1.3-2.fc41                   <unknown>                                         0.0   B
+ qemu-kvm-core                                           aarch64 2:9.1.3-2.fc41                   updates                                           0.0   B
+   replacing qemu-kvm-core                               aarch64 2:9.1.3-2.fc41                   <unknown>                                         0.0   B
+ qemu-pr-helper                                          aarch64 2:9.1.3-2.fc41                   updates                                           1.0 MiB
+   replacing qemu-pr-helper                              aarch64 2:9.1.3-2.fc41                   <unknown>                                         1.0 MiB
+ qemu-system-aarch64                                     aarch64 2:9.1.3-2.fc41                   updates                                           0.0   B
+   replacing qemu-system-aarch64                         aarch64 2:9.1.3-2.fc41                   <unknown>                                         0.0   B
+ qemu-system-aarch64-core                                aarch64 2:9.1.3-2.fc41                   updates                                          32.2 MiB
+   replacing qemu-system-aarch64-core                    aarch64 2:9.1.3-2.fc41                   <unknown>                                        32.2 MiB
+ qemu-ui-curses                                          aarch64 2:9.1.3-2.fc41                   updates                                          67.8 KiB
+   replacing qemu-ui-curses                              aarch64 2:9.1.3-2.fc41                   <unknown>                                        67.8 KiB
+ qemu-ui-egl-headless                                    aarch64 2:9.1.3-2.fc41                   updates                                          67.7 KiB
+   replacing qemu-ui-egl-headless                        aarch64 2:9.1.3-2.fc41                   <unknown>                                        67.7 KiB
+ qemu-ui-gtk                                             aarch64 2:9.1.3-2.fc41                   updates                                         134.5 KiB
+   replacing qemu-ui-gtk                                 aarch64 2:9.1.3-2.fc41                   <unknown>                                       134.5 KiB
+ qemu-ui-opengl                                          aarch64 2:9.1.3-2.fc41                   updates                                          68.4 KiB
+   replacing qemu-ui-opengl                              aarch64 2:9.1.3-2.fc41                   <unknown>                                        68.4 KiB
+ qemu-ui-sdl                                             aarch64 2:9.1.3-2.fc41                   updates                                          68.8 KiB
+   replacing qemu-ui-sdl                                 aarch64 2:9.1.3-2.fc41                   <unknown>                                        68.8 KiB
+ qemu-ui-spice-app                                       aarch64 2:9.1.3-2.fc41                   updates                                          67.6 KiB
+   replacing qemu-ui-spice-app                           aarch64 2:9.1.3-2.fc41                   <unknown>                                        67.6 KiB
+ qemu-ui-spice-core                                      aarch64 2:9.1.3-2.fc41                   updates                                          71.8 KiB
+   replacing qemu-ui-spice-core                          aarch64 2:9.1.3-2.fc41                   <unknown>                                        71.8 KiB
+ rutabaga-gfx-ffi                                        aarch64 0.1.3-2.fc41                     fedora                                          602.5 KiB
+   replacing rutabaga-gfx-ffi                            aarch64 0.1.3-2.fc41                     <unknown>                                       602.5 KiB
+ scrub                                                   aarch64 2.6.1-9.fc41                     fedora                                          242.4 KiB
+   replacing scrub                                       aarch64 2.6.1-9.fc41                     <unknown>                                       242.4 KiB
+ spice-server                                            aarch64 0.15.1-6.fc41                    fedora                                            1.3 MiB
+   replacing spice-server                                aarch64 0.15.1-6.fc41                    <unknown>                                         1.3 MiB
+ sqlite                                                  aarch64 3.46.1-2.fc41                    updates                                           1.8 MiB
+   replacing sqlite                                      aarch64 3.46.1-2.fc41                    <unknown>                                         1.8 MiB
+ swtpm                                                   aarch64 0.9.0-7.fc41                     updates                                          78.2 KiB
+   replacing swtpm                                       aarch64 0.9.0-7.fc41                     <unknown>                                        78.2 KiB
+ swtpm-libs                                              aarch64 0.9.0-7.fc41                     updates                                         135.1 KiB
+   replacing swtpm-libs                                  aarch64 0.9.0-7.fc41                     <unknown>                                       135.1 KiB
+ swtpm-selinux                                           noarch  0.9.0-7.fc41                     updates                                         252.0 KiB
+   replacing swtpm-selinux                               noarch  0.9.0-7.fc41                     <unknown>                                       252.0 KiB
+ swtpm-tools                                             aarch64 0.9.0-7.fc41                     updates                                         428.4 KiB
+   replacing swtpm-tools                                 aarch64 0.9.0-7.fc41                     <unknown>                                       428.4 KiB
+ systemd-container                                       aarch64 256.12-1.fc41                    updates                                           2.6 MiB
+   replacing systemd-container                           aarch64 256.12-1.fc41                    <unknown>                                         2.6 MiB
+ teckit                                                  aarch64 2.5.12-3.fc41                    fedora                                            2.7 MiB
+   replacing teckit                                      aarch64 2.5.12-3.fc41                    <unknown>                                         2.7 MiB
+ texlive-dvipdfmx                                        aarch64 11:svn66203-85.fc41              fedora                                            3.8 MiB
+   replacing texlive-dvipdfmx                            aarch64 11:svn66203-85.fc41              <unknown>                                         3.8 MiB
+ texlive-everyshi                                        noarch  11:svn57001-73.fc41              fedora                                          157.4 KiB
+   replacing texlive-everyshi                            noarch  11:svn57001-73.fc41              <unknown>                                       157.4 KiB
+ texlive-firstaid                                        noarch  11:svn64892-73.fc41              fedora                                          296.9 KiB
+   replacing texlive-firstaid                            noarch  11:svn64892-73.fc41              <unknown>                                       296.9 KiB
+ texlive-glyphlist                                       noarch  11:svn54074-85.fc41              fedora                                           90.3 KiB
+   replacing texlive-glyphlist                           noarch  11:svn54074-85.fc41              <unknown>                                        90.3 KiB
+ texlive-xetex                                           aarch64 11:svn66203-85.fc41              fedora                                            2.3 MiB
+   replacing texlive-xetex                               aarch64 11:svn66203-85.fc41              <unknown>                                         2.3 MiB
+ texlive-xetexconfig                                     noarch  11:svn45845-73.fc41              fedora                                          305.0   B
+   replacing texlive-xetexconfig                         noarch  11:svn45845-73.fc41              <unknown>                                       305.0   B
+ virglrenderer                                           aarch64 1.0.1^asahipost20241205.2-1.fc41 copr:copr.fedorainfracloud.org:group_asahi:mesa 589.3 KiB
+   replacing virglrenderer                               aarch64 1.0.1^asahipost20241205.2-1.fc41 <unknown>                                       589.3 KiB
+ virtiofsd                                               aarch64 1.13.0-1.fc41                    updates                                           2.2 MiB
+   replacing virtiofsd                                   aarch64 1.13.0-1.fc41                    <unknown>                                         2.2 MiB
+ xen-libs                                                aarch64 4.19.1-5.fc41                    updates                                           2.6 MiB
+   replacing xen-libs                                    aarch64 4.19.1-5.fc41                    <unknown>                                         2.6 MiB
+ xen-licenses                                            aarch64 4.19.1-5.fc41                    updates                                         251.3 KiB
+   replacing xen-licenses                                aarch64 4.19.1-5.fc41                    <unknown>                                       251.3 KiB
+ zstd                                                    aarch64 1.5.7-1.fc41                     updates                                           1.5 MiB
+   replacing zstd                                        aarch64 1.5.7-1.fc41                     <unknown>                                         1.5 MiB
+
+Transaction Summary:
+ Reinstalling:     144 packages
+ Replacing:        144 packages
+
