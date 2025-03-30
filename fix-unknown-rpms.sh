@@ -6,12 +6,11 @@ pkgs=($(dnf list --installed | grep unknown | awk '{print $1}'))
   exit 0
 }
 
-OUTPUT="$HOME/fix-unknown-rpms.md"
+OUTPUT="$PWD/fix-unknown-rpms.md"
 exec 1>>"${OUTPUT}"
 
-printf "%s\n" "$(date)"
+printf "\n\n%s\n" "$(date)"
 dnf list --installed | grep unknown
 
 echo "Reinstall the packages require higher privileges" >&2
 sudo dnf reinstall "${pkgs[@]}"
-
