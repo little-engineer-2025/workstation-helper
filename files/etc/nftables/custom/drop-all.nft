@@ -41,7 +41,7 @@ table inet nftables_svc {
 
 		meta l4proto @allowed_protocols accept
 		iifname @allowed_interfaces accept
-		tcp dport @allowed_tcp_dports accept
+		# tcp dport @allowed_tcp_dports accept
 	}
 
 	# base-chain for traffic to this host

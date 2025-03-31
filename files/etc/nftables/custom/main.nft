@@ -32,7 +32,7 @@ table inet nftables_svc {
 	# services to allow
 	set allowed_tcp_dports {
 		type inet_service
-		elements = { ssh, 9090 }
+		elements = { 443, 22, 853 }
 	}
 
 	# this chain gathers all accept conditions

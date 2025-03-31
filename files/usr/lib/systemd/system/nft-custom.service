@@ -1,0 +1,18 @@
+[Unit]
+Description=Netfilter Tables Custom
+Documentation=man:nft(8)
+Wants=network-pre.target
+Before=network-pre.target
+
+[Service]
+Type=oneshot
+ProtectSystem=full
+ProtectHome=true
+ExecStart=/sbin/nft -f /etc/nftables/custom/main.nft
+ExecReload=/sbin/nft -f /etc/nftables/custom/drop-all.nft
+ExecReload=/sbin/nft -f /etc/nftables/custom/main.nft
+ExecStop=/sbin/nft -f /etc/nftables/custom/drop-all.nft
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
