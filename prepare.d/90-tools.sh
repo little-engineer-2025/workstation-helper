@@ -40,7 +40,30 @@ function install_vscode {
   sudo dnf install -y code
 }
 
+function install_neovim {
+  # https://medium.com/@yanglyu5201/neovim-setup-for-golang-programming-68ebf59336d9
+  # https://dev.to/slydragonn/ultimate-neovim-setup-guide-lazynvim-plugin-manager-23b7
+  sudo dnf install -y neovim --exclude=nodejs
+  # sudo dnf install -y neovim --exclude=nodejs \
+  #     vim-nerdtree \
+  #     vim-trailing-whitespace \
+  #     vim-command-t \
+  #     vim-ctrlp \
+  #     vim-devicons \
+  #     vim-filesystem \
+  #     vim-fugitive \
+  #     vim-fugitive-gitlab \
+  #     vim-rhubarb \
+  #     vim-go \
+  #     vim-golint \
+  #     vim-gv \
+  #     vim-pathogen
+  [ -e ~/.config ] || mkdir ~/.config
+  cp -Rvf files/home/.config/nvim ~/.config
+  nvim -c PlugInstall -c q -c q --headless
+}
+
 install_packages
+install_neovim
 # install_dotfiles
 install_service "fix-unknown-source-rpm"
-sudo dnf install -y neovim --exclude=nodejs
