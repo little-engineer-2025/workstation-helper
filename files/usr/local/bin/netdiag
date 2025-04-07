@@ -1,0 +1,43 @@
+#!/bin/bash
+
+# Check ARP
+echo "Check ARP"
+readarray FIELDS < <(cat /proc/net/arp)
+if [ "${#FIELDS[@]}" -lt 2 ]; then
+  echo "error: arp check failed: no connectivity"
+  exit 1
+fi
+read -a FIELDS <<< "${FIELDS[1]}"
+
+# Ping gateway
+echo "Check Gateway"
+GATEWAY_IP="${FIELDS[0]}"
+if ! ping -c 5 "${GATEWAY_IP}"; then
+  echo "error: gateway ping failed"
+  exit 2
+fi
+
+# Ping DNS
+echo "Ping a DNS server"
+DNS_IP="1.1.1.1"
+if ! ping -c 5 "${DNS_IP}"; then
+  echo "error: dns ping failed: ${DNS_IP} no response"
+  exit 3
+fi
+
+# Check DNS resolution
+echo "Check DNS resolution"
+DNS_HOSTNAME_TEST="www.google.es"
+if ! resolvectl query "${DNS_HOSTNAME_TEST}" --cache=no --network=yes; then
+  echo "error: dns resolution failed: resolvectl query did not resolve for ${DNS_HOSTNAME_TEST}"
+  exit 4
+fi
+
+# Check network bandwidth
+echo "Check network banwidth"
+IPERF_SERVER="185.93.3.50"
+if ! iperf3 -c "${IPERF_SERVER}" -p 5201-5210 -R; then
+  echo "error: bandwidth test failed for iperf3 server ${IPERF_SERVER}"
+  exit 5
+fi
+

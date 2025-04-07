@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Generate a complex password and copy to the clipboard
+wl-copy -n < <(keepassxc-cli generate --length 64 --lower --upper --numeric --special)
+

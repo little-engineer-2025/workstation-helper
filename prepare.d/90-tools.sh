@@ -63,6 +63,11 @@ function install_neovim {
   nvim -c PlugInstall -c q -c q --headless
 }
 
+function custom_tools {
+  sudo cp -vf files/usr/local/genpass /usr/local/genpass
+  sudo cp -vf files/usr/local/netdiag /usr/local/netdiag
+}
+
 install_packages
 install_neovim
 # install_dotfiles
