@@ -1,0 +1,11 @@
+table arp filter {
+	set allowed_macs {
+		type ether_addr
+	}
+
+	chain input {
+		type filter hook input priority filter; policy accept;
+		arp operation request ether saddr @allowed_macs accept
+		arp operation request drop
+	}
+}

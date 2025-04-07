@@ -54,11 +54,14 @@ table inet nftables_svc {
 	}
 }
 
+# Add ARP filter
+include "/etc/nftables/custom/arp.nft
+
 # By default, any forwarding traffic is allowed.
 # Uncomment the following line to filter it based
 # on the same criteria as input traffic.
-#include "/etc/nftables/router.nft"
+#include "/etc/nftables/custom/router.nft"
 
 # Uncomment the following line to enable masquerading of
 # forwarded traffic. May be used with or without router.nft.
-#include "/etc/nftables/nat.nft"
+#include "/etc/nftables/custom/nat.nft"
