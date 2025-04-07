@@ -818,3 +818,53 @@ Transaction Summary:
  Reinstalling:     144 packages
  Replacing:        144 packages
 
+
+
+Wed Apr  2 09:24:14 AM CEST 2025
+openldap.aarch64                                                       2.6.9-1.fc41                           <unknown>
+perl-DateTime-TimeZone.noarch                                          2.65-1.fc41                            <unknown>
+perl-Module-CoreList.noarch                                            1:5.20250321-1.fc41                    <unknown>
+python3-beautifulsoup4.noarch                                          4.13.3-2.fc41                          <unknown>
+python3-boto3.noarch                                                   1.37.23-1.fc41                         <unknown>
+python3-botocore.noarch                                                1.37.23-1.fc41                         <unknown>
+Package                             Arch    Version             Repository      Size
+Reinstalling:
+ openldap                           aarch64 2.6.9-1.fc41        updates    761.3 KiB
+   replacing openldap               aarch64 2.6.9-1.fc41        <unknown>  761.3 KiB
+ perl-DateTime-TimeZone             noarch  2.65-1.fc41         updates      6.1 MiB
+   replacing perl-DateTime-TimeZone noarch  2.65-1.fc41         <unknown>    6.1 MiB
+ perl-Module-CoreList               noarch  1:5.20250321-1.fc41 updates      1.2 MiB
+   replacing perl-Module-CoreList   noarch  1:5.20250321-1.fc41 <unknown>    1.2 MiB
+ python3-beautifulsoup4             noarch  4.13.3-2.fc41       updates      1.9 MiB
+   replacing python3-beautifulsoup4 noarch  4.13.3-2.fc41       <unknown>    1.9 MiB
+ python3-boto3                      noarch  1.37.23-1.fc41      updates      2.1 MiB
+   replacing python3-boto3          noarch  1.37.23-1.fc41      <unknown>    2.1 MiB
+ python3-botocore                   noarch  1.37.23-1.fc41      updates    100.5 MiB
+   replacing python3-botocore       noarch  1.37.23-1.fc41      <unknown>  100.5 MiB
+
+Transaction Summary:
+ Reinstalling:       6 packages
+ Replacing:          6 packages
+
+
+
+Fri Apr  4 10:50:10 PM CEST 2025
+cargo.aarch64                                                          1.85.1-1.fc41                          <unknown>
+libgit2_1.8.aarch64                                                    1.8.4-1.fc41                           <unknown>
+rust.aarch64                                                           1.85.1-1.fc41                          <unknown>
+rust-std-static.aarch64                                                1.85.1-1.fc41                          <unknown>
+Package                      Arch    Version       Repository      Size
+Reinstalling:
+ cargo                       aarch64 1.85.1-1.fc41 updates     17.0 MiB
+   replacing cargo           aarch64 1.85.1-1.fc41 <unknown>   17.0 MiB
+ libgit2_1.8                 aarch64 1.8.4-1.fc41  updates      1.3 MiB
+   replacing libgit2_1.8     aarch64 1.8.4-1.fc41  <unknown>    1.3 MiB
+ rust                        aarch64 1.85.1-1.fc41 updates     73.3 MiB
+   replacing rust            aarch64 1.85.1-1.fc41 <unknown>   73.3 MiB
+ rust-std-static             aarch64 1.85.1-1.fc41 updates    146.0 MiB
+   replacing rust-std-static aarch64 1.85.1-1.fc41 <unknown>  146.0 MiB
+
+Transaction Summary:
+ Reinstalling:       4 packages
+ Replacing:          4 packages
+
