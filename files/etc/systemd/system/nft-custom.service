@@ -1,0 +1,19 @@
+[Unit]
+Description=Reinstall packages which source is unknown
+#Documentation=man:fwupdmgr(1)
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=root
+#CacheDirectory=fwupdmgr
+StandardError=null
+#DynamicUser=yes
+RestrictAddressFamilies=AF_INET
+#SystemCallFilter=~@mount
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+RestrictRealtime=yes
+#SuccessExitStatus=2
+ExecStart=/usr/local/bin/update-hosts-deny.sh
