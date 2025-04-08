@@ -68,6 +68,10 @@ function custom_tools {
   sudo cp -vf files/usr/local/netdiag /usr/local/netdiag
 }
 
+function window_manager {
+  sudo dnf install -y @sway-desktop-environment
+}
+
 install_packages
 install_neovim
 # install_dotfiles
