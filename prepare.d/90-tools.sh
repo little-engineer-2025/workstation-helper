@@ -18,7 +18,6 @@ function install_dotfiles {
   dotfiles config --local status.showUntrackedFiles no
 }
 
-
 # Add fix-unknown-source-rpm service
 function install_service {
   SERVICE="$1"
@@ -70,6 +69,7 @@ function custom_tools {
 
 function window_manager {
   sudo dnf install -y @sway-desktop-environment
+  sudo dnf install -y alacritty brightnessctl
 }
 
 install_packages
