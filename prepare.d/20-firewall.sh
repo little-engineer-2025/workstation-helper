@@ -1,5 +1,4 @@
 #!/bin/bash
-set -e
 
 check_mac_address() {
   local mac="$1"
@@ -8,7 +7,6 @@ check_mac_address() {
 
   # Check separators
   for idx in 2 5 8 11 14; do
-    echo $idx
     [ "${mac:$idx:1}" == ":" ] || return 1
   done
 
@@ -28,22 +26,23 @@ check_mac_address() {
 }
 
 read_mac_address() {
+  local MAC_ADDRESS
   while true; do
-    echo -n "Write a MAC address: "
-    read MAC_ADDRESS
+    printf "%s" "Write a MAC address: " >&2
+    read -r MAC_ADDRESS
     ! check_mac_address "${MAC_ADDRESS}" || break
-    echo "error: '${MAC_ADDRESS}' is not a valid mac address"
+    echo "error: '${MAC_ADDRESS}' is not a valid mac address" >&2
   done
-  print "%s" "${MAC_ADDRESS}"
+  printf "%s" "${MAC_ADDRESS}"
   return 0
 }
 
 initial_arp_filter() {
+  arp -n
   if [ "${GATEWAY_MAC}" == "" ]; then
-    echo "> Type in the MAC address for your gateway device"
     GATEWAY_MAC="$(read_mac_address)"
   fi
-  sudo nft add element arp allowed_macs { $GATEWAY_MAC }
+  arp-add "$GATEWAY_MAC"
 }
 
 setup_firewall() {
@@ -55,8 +54,9 @@ setup_firewall() {
   systemctl is-enabled nft-custom &>/dev/null || sudo sh -c "systemctl enable nft-custom; systemctl unmask nft-custom"
   systemctl is-active nft-custom &>/dev/null || sudo systemctl start nft-custom
   sudo systemctl reload nft-custom &>/dev/null
+  sudo cp -vf ./files/usr/local/bin/arp-add /usr/local/bin/
+  sudo cp -vf ./files/usr/local/bin/arp-delete /usr/local/bin/
   initial_arp_filter
 }
 
 setup_firewall
-

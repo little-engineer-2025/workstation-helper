@@ -6,6 +6,7 @@ table arp filter {
 	chain input {
 		type filter hook input priority filter; policy accept;
 		arp operation request ether saddr @allowed_macs accept
+		log prefix "[NFT ARP BLOCK INPUT] "
 		arp operation request drop
 	}
 }

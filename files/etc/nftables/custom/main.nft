@@ -32,16 +32,42 @@ table inet nftables_svc {
 	# services to allow
 	set allowed_tcp_dports {
 		type inet_service
-		elements = { 443, 22, 853 }
+		elements = { 443, 22 }
+	}
+
+	# allowed ntp servers: 2.fedora.pool.ntp.org
+	set ntp_servers {
+		type ipv4_addr
+		elements = {
+            82.223.203.159,
+            90.68.206.60,
+            162.159.200.1,
+            195.95.153.43,
+            213.165.71.32,
+            217.160.115.110,
+            178.255.228.77,
+            195.95.153.59,
+            162.159.200.123,
+            195.20.235.143,
+            94.143.139.219,
+            84.77.195.114,
+            94.143.139.219
+        }
+	}
+
+	# allowed DNS servers
+	set dns_servers {
+		type ipv4_addr
+		elements = {
+			1.1.1.1,
+			1.0.0.1
+		}
 	}
 
 	# this chain gathers all accept conditions
 	chain allow {
 		ct state established,related accept
-
 		meta l4proto @allowed_protocols accept
-		iifname @allowed_interfaces accept
-		tcp dport @allowed_tcp_dports accept
 	}
 
 	# base-chain for traffic to this host
@@ -49,13 +75,30 @@ table inet nftables_svc {
 		type filter hook input priority filter + 20
 		policy accept
 
+		iifname @allowed_interfaces accept
 		jump allow
+		log prefix "[NFT BLOCK INPUT] "
 		reject with icmpx type port-unreachable
 	}
+
+    chain OUTPUT {
+		type filter hook output priority filter + 20
+		policy drop
+
+		oifname @allowed_interfaces accept
+        jump allow
+        # TODO Refine the ntp rule
+		tcp dport @allowed_tcp_dports accept
+        udp dport 123 ip daddr @ntp_servers accept
+        tcp dport 853 ip daddr @dns_servers accept
+
+		log prefix "[NFT BLOCK OUTPUT] "
+		reject with icmpx type port-unreachable
+    }
 }
 
 # Add ARP filter
-include "/etc/nftables/custom/arp.nft
+include "/etc/nftables/custom/arp.nft"
 
 # By default, any forwarding traffic is allowed.
 # Uncomment the following line to filter it based

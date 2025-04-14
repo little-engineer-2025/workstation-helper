@@ -65,7 +65,7 @@ table inet nftables_svc {
 		type filter hook forward priority filter + 20
 		policy drop
 
-		log prefic "[NFT BLOCK FORWARD] "
+		log prefix "[NFT BLOCK FORWARD] "
 		reject with icmpx type port-unreachable
 	}
 }
