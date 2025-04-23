@@ -13,3 +13,8 @@ detectportal.firefox.com
 # Cookies and tracking
 cdn.cookielaw.org:443
 
+# Suspicious connections not verified
+mirror.telepoint.bg:443
+mirror.init7.net:443
+mirror.yandex.ru:443
+
