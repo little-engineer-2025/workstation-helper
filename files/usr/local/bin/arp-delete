@@ -33,5 +33,5 @@ if ! check_mac_address "$MAC"; then
 fi
 
 
-sudo nft delete element arp filter allowed_macs { "$MAC" }
+sudo nft destroy element arp filter allowed_macs { "$MAC" }
 sudo nft list ruleset arp | sudo tee /etc/nftables/custom/arp.nft >/dev/null
