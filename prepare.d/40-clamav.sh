@@ -4,7 +4,10 @@
 sudo dnf install -y clamav clamav-freshclam squidclamav clamd
 
 # Copy configuration
-sudo cp -vf files/etc/clamd.d/scan.conf /etc/clamd.d/scan.conf
+sudo cp -vf files/etc/clamd.d/scan.conf /etc/clamd.d/scan.conf && sudo chown root:root /etc/clamd.d/scan.conf && sudo chmod 0644 /etc/clamd.d/scan.conf
+sudo cp -vf files/etc/freshclam.conf /etc/freshclam.conf && sudo chown root:root /etc/freshclam.conf && sudo chmod 0600 /etc/freshclam.conf
+sudo restorecon /etc/clamd.d/scan.conf
+sudo restorecon /etc/freshclam.conf
 
 # Enable and start services
 SERVICE="clamav-freshclam"
