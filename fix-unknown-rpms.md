@@ -868,3 +868,96 @@ Transaction Summary:
  Reinstalling:       4 packages
  Replacing:          4 packages
 
+
+
+Wed Apr 23 02:21:47 AM CEST 2025
+assimp.aarch64                                                         5.3.1-3.fc41                           <unknown>
+bcg729.aarch64                                                         1.1.1-10.fc41                          <unknown>
+castget.aarch64                                                        2.0.1-20.fc41                          <unknown>
+grub2-emu.aarch64                                                      1:2.12-21.fc41                         <unknown>
+id3lib.aarch64                                                         3.8.3-58.fc41                          <unknown>
+libsmi.aarch64                                                         0.4.8-41.fc41                          <unknown>
+ncompress.aarch64                                                      5.0-7.fc41                             <unknown>
+openxr-libs.aarch64                                                    1.1.46-1.fc41                          <unknown>
+poly2tri.aarch64                                                       0.0^20130501hg26242d0aa7b8-2.fc41      <unknown>
+pugixml.aarch64                                                        1.13-6.fc41                            <unknown>
+qt6-qtmultimedia.aarch64                                               6.8.2-1.fc41                           <unknown>
+qt6-qtquick3d.aarch64                                                  6.8.2-1.fc41                           <unknown>
+qt6-qtquicktimeline.aarch64                                            6.8.2-1.fc41                           <unknown>
+spandsp.aarch64                                                        0.0.6-19.fc41                          <unknown>
+speexdsp.aarch64                                                       1.2.1-7.fc41                           <unknown>
+tig.aarch64                                                            2.5.12-1.fc41                          <unknown>
+vlc-cli.aarch64                                                        1:3.0.21-15.fc41                       <unknown>
+vlc-plugin-lua.aarch64                                                 1:3.0.21-15.fc41                       <unknown>
+wireshark.aarch64                                                      1:4.4.5-1.fc41                         <unknown>
+wireshark-cli.aarch64                                                  1:4.4.5-1.fc41                         <unknown>
+
+
+Wed Apr 23 02:28:18 AM CEST 2025
+assimp.aarch64                                                         5.3.1-3.fc41                           <unknown>
+bcg729.aarch64                                                         1.1.1-10.fc41                          <unknown>
+castget.aarch64                                                        2.0.1-20.fc41                          <unknown>
+grub2-emu.aarch64                                                      1:2.12-21.fc41                         <unknown>
+id3lib.aarch64                                                         3.8.3-58.fc41                          <unknown>
+libsmi.aarch64                                                         0.4.8-41.fc41                          <unknown>
+ncompress.aarch64                                                      5.0-7.fc41                             <unknown>
+openxr-libs.aarch64                                                    1.1.46-1.fc41                          <unknown>
+poly2tri.aarch64                                                       0.0^20130501hg26242d0aa7b8-2.fc41      <unknown>
+pugixml.aarch64                                                        1.13-6.fc41                            <unknown>
+qt6-qtmultimedia.aarch64                                               6.8.2-1.fc41                           <unknown>
+qt6-qtquick3d.aarch64                                                  6.8.2-1.fc41                           <unknown>
+qt6-qtquicktimeline.aarch64                                            6.8.2-1.fc41                           <unknown>
+spandsp.aarch64                                                        0.0.6-19.fc41                          <unknown>
+speexdsp.aarch64                                                       1.2.1-7.fc41                           <unknown>
+tig.aarch64                                                            2.5.12-1.fc41                          <unknown>
+vlc-cli.aarch64                                                        1:3.0.21-15.fc41                       <unknown>
+vlc-plugin-lua.aarch64                                                 1:3.0.21-15.fc41                       <unknown>
+wireshark.aarch64                                                      1:4.4.5-1.fc41                         <unknown>
+wireshark-cli.aarch64                                                  1:4.4.5-1.fc41                         <unknown>
+Package                          Arch    Version                           Repository      Size
+Reinstalling:
+ assimp                          aarch64 5.3.1-3.fc41                      fedora       6.7 MiB
+   replacing assimp              aarch64 5.3.1-3.fc41                      <unknown>    6.7 MiB
+ bcg729                          aarch64 1.1.1-10.fc41                     fedora     231.9 KiB
+   replacing bcg729              aarch64 1.1.1-10.fc41                     <unknown>  231.9 KiB
+ castget                         aarch64 2.0.1-20.fc41                     updates    119.6 KiB
+   replacing castget             aarch64 2.0.1-20.fc41                     <unknown>  119.6 KiB
+ grub2-emu                       aarch64 1:2.12-21.fc41                    updates      1.6 MiB
+   replacing grub2-emu           aarch64 1:2.12-21.fc41                    <unknown>    1.6 MiB
+ id3lib                          aarch64 3.8.3-58.fc41                     fedora       1.8 MiB
+   replacing id3lib              aarch64 3.8.3-58.fc41                     <unknown>    1.8 MiB
+ libsmi                          aarch64 0.4.8-41.fc41                     fedora      21.6 MiB
+   replacing libsmi              aarch64 0.4.8-41.fc41                     <unknown>   21.6 MiB
+ ncompress                       aarch64 5.0-7.fc41                        fedora     206.2 KiB
+   replacing ncompress           aarch64 5.0-7.fc41                        <unknown>  206.2 KiB
+ openxr-libs                     aarch64 1.1.46-1.fc41                     updates    263.4 KiB
+   replacing openxr-libs         aarch64 1.1.46-1.fc41                     <unknown>  263.4 KiB
+ poly2tri                        aarch64 0.0^20130501hg26242d0aa7b8-2.fc41 fedora     199.8 KiB
+   replacing poly2tri            aarch64 0.0^20130501hg26242d0aa7b8-2.fc41 <unknown>  199.8 KiB
+ pugixml                         aarch64 1.13-6.fc41                       fedora     329.3 KiB
+   replacing pugixml             aarch64 1.13-6.fc41                       <unknown>  329.3 KiB
+ qt6-qtmultimedia                aarch64 6.8.2-1.fc41                      updates      3.8 MiB
+   replacing qt6-qtmultimedia    aarch64 6.8.2-1.fc41                      <unknown>    3.8 MiB
+ qt6-qtquick3d                   aarch64 6.8.2-1.fc41                      updates     12.5 MiB
+   replacing qt6-qtquick3d       aarch64 6.8.2-1.fc41                      <unknown>   12.5 MiB
+ qt6-qtquicktimeline             aarch64 6.8.2-1.fc41                      updates    467.3 KiB
+   replacing qt6-qtquicktimeline aarch64 6.8.2-1.fc41                      <unknown>  467.3 KiB
+ spandsp                         aarch64 0.0.6-19.fc41                     fedora     896.7 KiB
+   replacing spandsp             aarch64 0.0.6-19.fc41                     <unknown>  896.7 KiB
+ speexdsp                        aarch64 1.2.1-7.fc41                      fedora     629.1 KiB
+   replacing speexdsp            aarch64 1.2.1-7.fc41                      <unknown>  629.1 KiB
+ tig                             aarch64 2.5.12-1.fc41                     updates    982.3 KiB
+   replacing tig                 aarch64 2.5.12-1.fc41                     <unknown>  982.3 KiB
+ vlc-cli                         aarch64 1:3.0.21-15.fc41                  updates    135.2 KiB
+   replacing vlc-cli             aarch64 1:3.0.21-15.fc41                  <unknown>  135.2 KiB
+ vlc-plugin-lua                  aarch64 1:3.0.21-15.fc41                  updates    883.9 KiB
+   replacing vlc-plugin-lua      aarch64 1:3.0.21-15.fc41                  <unknown>  883.9 KiB
+ wireshark                       aarch64 1:4.4.5-1.fc41                    updates      9.3 MiB
+   replacing wireshark           aarch64 1:4.4.5-1.fc41                    <unknown>    9.3 MiB
+ wireshark-cli                   aarch64 1:4.4.5-1.fc41                    updates     94.4 MiB
+   replacing wireshark-cli       aarch64 1:4.4.5-1.fc41                    <unknown>   94.4 MiB
+
+Transaction Summary:
+ Reinstalling:      20 packages
+ Replacing:         20 packages
+
