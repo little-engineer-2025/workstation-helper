@@ -20,7 +20,8 @@ table inet nftables_svc {
 	# protocols to allow
 	set allowed_protocols {
 		type inet_proto
-		elements = { icmp, icmpv6 }
+		# elements = { icmp, icmpv6 }
+		elements = { icmp }
 	}
 
 	# interfaces to accept any traffic on
@@ -35,27 +36,33 @@ table inet nftables_svc {
 		elements = { 443, 22 }
 	}
 
+	# allower outgoing TLS ports
+	set allowed_tls_dports {
+		type inet_service
+		elements = { 443, 22 }
+	}
+
 	# allowed ntp servers: 2.fedora.pool.ntp.org
 	set ntp_servers {
 		type ipv4_addr
 		elements = {
-            82.223.203.159,
-            90.68.206.60,
-            162.159.200.1,
-            195.95.153.43,
-            213.165.71.32,
-            217.160.115.110,
-            178.255.228.77,
-            195.95.153.59,
-            162.159.200.123,
-            195.20.235.143,
-            94.143.139.219,
-            84.77.195.114,
-            94.143.139.219
-        }
+			82.223.203.159,
+			90.68.206.60,
+			162.159.200.1,
+			195.95.153.43,
+			213.165.71.32,
+			217.160.115.110,
+			178.255.228.77,
+			195.95.153.59,
+			162.159.200.123,
+			195.20.235.143,
+			94.143.139.219,
+			84.77.195.114,
+			94.143.139.219
+		}
 	}
 
-	# allowed DNS servers
+	# allowed dns servers
 	set dns_servers {
 		type ipv4_addr
 		elements = {
@@ -66,6 +73,7 @@ table inet nftables_svc {
 
 	# this chain gathers all accept conditions
 	chain allow {
+		ct state invalid drop
 		ct state established,related accept
 		meta l4proto @allowed_protocols accept
 	}
@@ -75,22 +83,55 @@ table inet nftables_svc {
 		type filter hook input priority filter + 20
 		policy accept
 
+		meta l4proto icmpv6 drop
+		icmp type { echo-reply, time-exceeded, destination-unreachable } accept
 		iifname @allowed_interfaces accept
+
+		# udp dport 1900 log "[NFT DROP INPUT] SSDP traffic: "
+		udp dport 1900 drop comment "SSDP traffic"
+
+		#udp dport 9999 log "[NFT DROP INPUT] TP-LINK Smart Home Protocol traffic: "
+		udp dport 9999 drop comment "TP-LINK Smart Home Protocol traffic"
+
+		# udp dport 56700 log "[NFT DROP INPUT] udp/56700: "
+		udp dport 56700 drop comment "udp/56700 traffic"
+
 		jump allow
+
 		log prefix "[NFT BLOCK INPUT] "
+
 		reject with icmpx type port-unreachable
 	}
 
-    chain OUTPUT {
+	chain OUTPUT {
 		type filter hook output priority filter + 20
 		policy drop
 
+		meta l4proto icmpv6 drop
+		icmp type echo-request accept
 		oifname @allowed_interfaces accept
-        jump allow
-        # TODO Refine the ntp rule
-		tcp dport @allowed_tcp_dports accept
-        udp dport 123 ip daddr @ntp_servers accept
-        tcp dport 853 ip daddr @dns_servers accept
+		jump allow
+		# TODO Refine the ntp rule
+		udp dport 123 ip daddr @ntp_servers accept
+
+		# TODO Allow only 853 if a TLS connection
+		tcp dport 853 ip daddr @dns_servers tcp flags == syn ct state new accept # No inspection
+		#tcp dport 853 ip daddr @dns_servers tcp flags == syn ct state new meta l4proto tcp @th,0,16 0x0303 accept  # TLS 1.2
+		#tcp dport 853 ip daddr @dns_servers tcp flags == syn ct state new meta l4proto tcp @th,0,16 0x0304 accept  # TLS 1.3
+
+		# TLS outgoing connections (443, 22)
+		tcp dport @allowed_tls_dports tcp flags == syn ct state new accept # No inspection
+
+		# @th,offset,length   where offset and length are expressed in bits
+		# Client Hello (1)
+		#   It could indicate the protocol version is lower, however
+		#   the final handshake could be 1.2 or 1.3 at the end of the handshake.
+		#   TODO Find the way to track this, and accept only the version we want to allow.
+		# tcp dport @allowed_tls_dports tcp flags == syn ct state new meta l4proto tcp @th,0,24 0x160303 accept  # TLS 1.2
+		# tcp dport @allowed_tls_dports tcp flags == syn ct state new meta l4proto tcp @th,0,24 0x160304 accept  # TLS 1.3
+
+		udp dport 1900 drop comment "drop SSDP traffic"
+		udp dport 9999 drop comment "drop TP-LINK Smart Home Protocol traffic"
 
 		log prefix "[NFT BLOCK OUTPUT] "
 		reject with icmpx type port-unreachable
