@@ -2,8 +2,15 @@
 # Install packages
 function install_packages {
   pkgs=()
-  pkgs+=(git keepassxc kpcli vim did silver tmux rg bat)
+  pkgs+=(git keepassxc kpcli vim did silver tmux rg bat castget ncmpcpp aide)
   sudo dnf install -y "${pkgs[@]}"
+
+  # post install
+  # https://docs.fedoraproject.org/en-US/quick-docs/aide-checking-file-integrity/
+  # https://aide.github.io/doc/
+  sudo aide --init
+  sudo mv /var/lib/aide/aide.db.new.gz /var/lib/aide/aide.db.gz
+  sudo aide --check
 }
 
 # Install dotfiles
